@@ -7,11 +7,11 @@ body {
 
 h1, h2, h3 {
     color: #7c8855;
-    font-weigth:600;
+    font-weight:600;
 }
 
 h1 {
-    font-size: 
+    font-size: 20px;
 }
 
 header {
@@ -20,7 +20,7 @@ header {
 }
 
 main {
-	min-height: 5;
+	min-height: 5px;
 }
 
 main img {
@@ -37,7 +37,6 @@ footer {
 	font-size: .8rem;
 }
 /* Class Selectors *******************/
-
 .profile {
     box-shadow: .25rem .25rem .25rem #ccaabb;
     border: 1px solid #777;
