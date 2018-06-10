@@ -9,8 +9,8 @@
 
         display: block;
     }
-    
-    nav ul.hide{
+
+    nav ul.hide {
         display: block;
         display: flex;
         flex-direction: row;
@@ -21,9 +21,8 @@
         overflow: hidden;
         background-color: #333;
     }
-    
-    li {
-    }
+
+    li {}
 
     a:hover {
         background-color: lightgoldenrodyellow;
@@ -33,14 +32,19 @@
     header img {
         width: 50%;
     }
-    
+
     body img {
         height: 300px;
     }
-    
-    .current img{
+
+    .current img {
         height: 100px;
         margin-left: 50px;
     }
-    
+
+    .grid-container {
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: 1fr 1fr;
+    }
 }
