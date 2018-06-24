@@ -36,7 +36,7 @@
     <img src="images/franklin-Large.jpg" alt="banner" />
 
     <main>
-        <h2> The City of Franklin</h2>
+        <h2> The City of Franklin, <span id="name"></span></h2>
         <figure>
             <picture>
                 <source media="(min-width: 650px)" srcset="images/franklin-Large.jpg">
@@ -47,8 +47,8 @@
         <section class="weather-summary">
             <h3>Weather Summary</h3>
             <div class="highlow">
-                <p>High: 50F</p>
-                <p>Low: 50F</p>
+                <p>High: <span id="max_temp">50</span>F</p>
+                <p>Low: <span id="min_temp">50</span>F</p>
             </div>
             <div class="current">
                 <p>Sunny</p>
@@ -57,8 +57,8 @@
                 </picture>
             </div>
             <div class="conditions">
-                <p>Precipitation:</p>
-                <p>Wind Speed:</p>
+                <p>Precipitation:<span id="prec">2 mph</span></p>
+                <p>Wind Speed:<span id="speed"></span></p>
             </div>
         </section>
 
@@ -120,7 +120,7 @@
         }
 
     </script>
-
+    <script src="scripts/openweathermap.js"></script>
 </body>
 
 </html>

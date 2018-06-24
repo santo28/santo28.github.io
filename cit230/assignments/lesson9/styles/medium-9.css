@@ -47,4 +47,11 @@
         grid-gap: 10px;
         grid-template-columns: 1fr 1fr;
     }
+
+
+    .cities {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
 }
