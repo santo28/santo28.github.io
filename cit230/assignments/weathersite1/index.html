@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head w3-include-html="modules/head.html">
+    <title>Home Page</title>
+</head>
+
+<body>
+    <header>
+        <h1>Weather Site for Soccer Clubs</h1>
+        <figure>
+            <img src="images/mundial.jpg" alt="logo" />
+        </figure>
+    </header>
+
+    <nav class="clearfix" w3-include-html="modules/nav.html">
+
+    </nav>
+
+    <img src="images/bannerpic.jpeg" alt="banner" />
+
+
+    <main>
+        <section class="cities">
+
+        </section>
+
+    </main>
+
+    <footer>
+        <section class="contact">
+            Contact information placeholder 999.999.9999 123 Main St. Anytown, US 99999 Google Map
+        </section>
+        <section class="footer-bar">&copy;2018 | All Rights Reserved | Soccer Clubs | <span id="currentdate"></span>
+        </section>
+    </footer>
+
+    <script src="scripts/currentdate.js"></script>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/openweathermap.js"></script>
+    <script>
+        function adjustRating(rating) {
+            document.getElementById("ratingvalue").innerHTML = rating;
+        }
+    </script>
+
+    <script src="scripts/w3.js"></script>
+    <script src="scripts/wayfinding.js"></script>
+    <script src=scripts/modularize.js></script>
+    <script src="scripts/cities.js"></script>
+</body>
+
+</html>

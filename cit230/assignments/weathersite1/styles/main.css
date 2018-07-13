@@ -1,0 +1,122 @@
+/* Delete these CSS comments after reading. */
+
+/* This main css file contains the default rules and is geared toward the small/phone view */
+
+* {
+    box-sizing: border-box;
+}
+
+/* This wildcard applies to all elements ensuring a box layout model */
+
+body {
+    font-size: 16px;
+    font-family: 'Roboto Slab', serif;;
+    /* Declare the base font-family */
+    margin: 10px;
+    background-color: #A9D0F5;
+}
+
+header {
+    font-size: 15px;
+    color: #000000;
+}
+
+nav,
+main,
+footer {
+    color: #000000;
+    /* the comma between the selectors means apply the following CSS declarations to all of the listed elements */
+    max-width: 100%;
+    text-align: center;
+    /* Declare the maximum width and other main element rules to limit the stretch on larger/wider views */
+}
+
+
+body img {
+    width: 100%;
+}
+
+header {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+header h1 {
+}
+
+header img {
+    width: 80%;
+    
+}
+
+header .subheading {}
+
+nav {}
+
+nav button {
+    margin-right: 260px;
+    margin-top: -100px;
+    background-color: aliceblue;
+    border: none;
+    font-size: 1.6rem;
+    color: #555;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+nav ul.hide {
+    display: none;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.active {
+    background: red;
+}
+
+main {}
+
+main h2 {}
+
+main figure img {}
+
+footer {}
+
+section.forecast {
+    display: none;
+}
+
+.current img {
+    width: 100px;
+    margin: auto;
+}
+
+.grid-container {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr;
+    background-color: #2196F3;
+    padding: 10px;
+}
+
+.grid-item {
+    border: 3px solid black;
+    padding: 10px;
+}
+
+.cities{
+    display: flex;
+    flex-direction: column;
+}

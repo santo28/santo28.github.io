@@ -30,12 +30,13 @@ header, main, footer {
 
 header, footer, footer a {
     text-align: center;
-    background-color: cornflowerblue;
+    background-color: skyblue;
     color: whitesmoke;
+
 }
 
 header img {
-    width: 300px;
+    width: 350px;
     height: 400px;
     float: right;
     z-index: 10px;
@@ -44,7 +45,7 @@ header img {
 
 footer {
     font-size: smaller;
-    background-color: cornflowerblue;
+    background-color: skyblue;
     position: absolute;
     left: 0;
     bottom: 0;
