@@ -1,2 +1,6 @@
-# santo28.github.io
+# Website using basic knowledge of: 
+- HTML
+- CSS
+- JavaScript
+- Json
 
